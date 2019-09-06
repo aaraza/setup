@@ -3,19 +3,15 @@
   hosts: localhost
   vars:
     brew_packages:
-      - 'clojure'
       - 'coreutils'
       - 'cmake'
       - 'ctags'
       - 'dockutil'
-      - 'emacs'
       - 'gist'
       - 'git'
-      - 'leiningen'
       - 'maven'
       - 'node'
       - 'pyenv'
-      - 'rbenv'
       - 'tmux'
       - 'trash'
       - 'tree'

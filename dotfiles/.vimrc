@@ -29,11 +29,8 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'sjl/badwolf'
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/rainbow_parentheses.vim'
-Plugin 'guns/vim-clojure-static'
 Plugin 'vim-airline/vim-airline'
 Plugin 'majutsushi/tagbar'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'raimondi/delimitmate'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -75,7 +72,6 @@ let g:tagbar_type_markdown = {
 " Misc Settings
 let g:rbpt_max = 16
 let g:rbpt_loadcmd_toggle = 0
-let g:clojure_align_multiline_strings = 1
 let g:ycm_cache_omnifunc = 0
 let g:vim_markdown_folding_disabled = 1
 

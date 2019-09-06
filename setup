@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-# Installs pip and Ansible
 
+# Installs OSK SDK
+installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /
+
+# Install pip and Ansible
 curl https://bootstrap.pypa.io/get-pip.py | python
 pip install ansible

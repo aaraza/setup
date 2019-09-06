@@ -12,9 +12,6 @@
     - name: Disable smart dashes
       shell: defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
 
-    - name: Set background
-      shell: osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Library/Desktop Pictures/Solid Colors/Solid Gray Dark.png"'
-
     - name: Disable press and hold keys
       shell: defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
 
