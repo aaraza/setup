@@ -4,14 +4,9 @@
   vars:
     brew_packages:
       - 'coreutils'
-      - 'cmake'
-      - 'ctags'
       - 'dockutil'
-      - 'gist'
       - 'git'
       - 'maven'
-      - 'node'
-      - 'pyenv'
       - 'tmux'
       - 'trash'
       - 'tree'
@@ -27,8 +22,6 @@
       - 'intellij-idea'
       - 'iterm2'
       - 'java'
-      - 'slack'
-      - 'spotify'
       - 'visual-studio-code'
       - 'vlc'
 
